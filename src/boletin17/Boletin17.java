@@ -20,6 +20,11 @@ public class Boletin17 {
         num.CrearArray();
         num.Amosar();
         
+        
+        DAM not=new DAM();
+        not.cargarArray();
+        not.AmosarNotas();
+       
     }
     
 }
