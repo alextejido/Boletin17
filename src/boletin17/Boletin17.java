@@ -24,7 +24,10 @@ public class Boletin17 {
         DAM not=new DAM();
         not.cargarArray();
         not.AmosarNotas();
-       
+       not.AlumnosAprobados();
+       not.MayorNota();
+       not.NotaMedia();
+       not.amosarAlumno();
     }
     
 }
