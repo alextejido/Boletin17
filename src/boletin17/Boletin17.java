@@ -16,7 +16,7 @@ public class Boletin17 {
      */
     public static void main(String[] args) {
     
-        Numeros num= new Numeros();
+       Numeros num= new Numeros();
         num.CrearArray();
         num.Amosar();
         
@@ -28,6 +28,7 @@ public class Boletin17 {
        not.MayorNota();
        not.NotaMedia();
        not.amosarAlumno();
+       not.Ordenar();
     }
     
 }

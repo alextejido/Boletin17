@@ -89,6 +89,30 @@ public class DAM {
       
   }
   
+  public void Ordenar(){
+      
+      int auxnota;
+      String auxstring;
+      
+      for(int i=0;i<notas.length -1;i++)
+          for(int j=i+1;j<notas.length;j++){
+              if(notas[i]>notas[j]){
+                  
+                  auxnota=notas[i];
+                  notas[i]=notas[j];
+                  notas[j]=auxnota;
+                  auxstring=nombres[i];
+                  nombres[i]=nombres[j];
+                  nombres[j]=auxstring;
+                  
+                  System.out.println("Alumno: "+auxstring+" Nota: "+auxnota);
+                  
+              }
+               
+              
+  }
+      
+  }
 }
     
 
